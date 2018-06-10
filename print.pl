@@ -6,7 +6,7 @@ use warnings; #バグの可能性が高い場合、警告してくれる
 my $name = 'kozina';
 
 my $age = 23;
-
+#print() ではスカラー値、配列、ハッシュが出力できる
 print "私の名前は$name です\n";
 print "私の年齢は$age 歳です\n";
 
